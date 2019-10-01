@@ -1,0 +1,2 @@
+cat The_Man_of_Property.txt |python3 map.py |sort -k1 | python3 red.py > result.local
+cat result.local| sort -k2 -rn| head
